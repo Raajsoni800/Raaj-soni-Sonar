@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #5D26C1;
+  --color-brand-secondary: #a17fe0;
+  --color-brand-accent: #FFD700;
+  --color-brand-dark: #5D26C1;
+  --color-brand-deep: #311171;
+  --color-brand-surface: rgba(0, 0, 0, 0.2);
+  
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-dark);
+    color: #ffffff;
+    font-family: var(--font-sans);
+  }
+}
+
+.paisa-gradient {
+  background: linear-gradient(90deg, #5D26C1, #a17fe0);
+}
+
+.card-blue {
+  background: linear-gradient(135deg, #6A11CB, #2575FC);
+}
+
+.card-gold {
+  background: linear-gradient(135deg, #F2994A, #F2C94C);
+}
+
+.card-pink {
+  background: linear-gradient(135deg, #FF0099, #493240);
+}
+
+.card-cyan {
+  background: linear-gradient(135deg, #00B4DB, #0083B0);
+}
+
+.glossy-glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.wallet-pill {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #FFD700;
+}
+
+.tap-active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
+
+.winner-row {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.badge-red {
+  background: #FF4B2B;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #000000;
+}
+
